@@ -1,9 +1,21 @@
 class Node:
     """
     A class to represent a Node.
+    ...
+    Attributes
+    ----------
+    value : int
+        value of the node
+    parent : int
+       parent of the node
     """
 
     def __init__(self, value, parent):
+        """
+        Constructs all the necessary attributes for the node object.
+        :param value:
+        :param parent:
+        """
         self.value = value
         self.parent = parent
 
